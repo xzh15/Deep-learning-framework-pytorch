@@ -44,6 +44,7 @@ print(t1[torch.tensor([True, False, False, False, False]),:])
 print(t1[t1[:, 2] > 5])
 print(t1[:, t1[1, :] > 5])
 print(t1[1, t1[1, :] > 5])
+
 # 多维索引
 t2 = torch.randint(1, 10, (2, 3, 4))
 print(f't2: {t2}')
