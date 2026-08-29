@@ -97,5 +97,8 @@ def train(x, y, coef):
 
 if __name__ == '__main__':
     x, y, coef = create_dataset()
+
+    print(f'真实系数: {coef}')
+
     train(x, y, coef)
 
